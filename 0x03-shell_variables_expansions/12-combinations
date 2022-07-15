@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -d oo| wc -l| tr aa
+printf "%s\n" {a..z}{a..z} | grep -v "oo"
